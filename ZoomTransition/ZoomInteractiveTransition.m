@@ -162,6 +162,9 @@
                                       zoomToView.alpha = 1;
                                   }
                                   [animatingImageView removeFromSuperview];
+
+                                  zoomFromView.alpha = 1;
+                                  zoomToView.alpha = 1;
                               }];
 }
 
